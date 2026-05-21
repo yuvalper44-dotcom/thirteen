@@ -725,8 +725,11 @@
             </div>
           </header>
 
-          <div className="setup">
-            <h2 className="setup-title"> משחק חדש (כי בואנוס הפסיד ושכנע את כולם לעשות עוד פעם)</h2>
+            <div className="setup">
+            <h2 className="setup-title">משחק חדש</h2>
+            <p style={{ fontFamily: "'Frank Ruhl Libre', serif", fontSize: 14, color: 'var(--ink-dim)', marginTop: -16, marginBottom: 24, fontStyle: 'italic' }}>
+              כי בואנוס הפסיד ושכנע את כולם לעשות עוד פעם
+            </p>
             {names.map((n, i) => (
               <div key={i} className="player-input">
                 <div className="player-badge" style={{ background: PLAYER_COLORS[i] }}>
